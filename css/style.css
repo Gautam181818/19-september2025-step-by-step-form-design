@@ -1,0 +1,85 @@
+body{
+    background-color: #fdfdfd;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myform{
+    width: 320px;
+    min-height: 300px;
+    margin: 210px auto;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.slide1{
+    height: 100px;
+    background-color: pink;
+}
+
+.emailinput{
+    height: 25px;
+    margin-top: 8px;
+}
+
+.red{
+    color: red;
+}
+
+.next1{
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    background-color: #d51f99;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.5em;
+}
+
+.stepnone{
+    display: none;
+}
+
+.circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    display: inline-block;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 35px;
+}
+
+.left{
+    float: left;
+}
+
+.center{
+    margin-left: 32%;
+}
+
+.right{
+    float: right;
+}
+
+.active{
+    border: 3px solid#d51f99;
+}
+
+.header{
+    position: relative;
+}
+
+.line{
+    width: 87px;
+    height: 3px;
+    background-color: #b7b8bb;
+    position: absolute;
+    top: 17px;
+    left: 47px;
+}
+
+.line2{
+    left: 187px;
+}
